@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Section */
+
+nav {
+  width: 100vw;
+  background: #1c1e53;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  width: 85vw;
+  height: 92px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+
+nav ul li {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  justify-self: center;
+}
+li:last-child {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  margin-left: 16px;
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  padding: 16px 48px;
+}
+
+/* Hero Section */
+
+.hero-container {
+  width: 100vw;
+  background-color: #1c1e53;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  color: #bbbbcb;
+  width: 85vw;
+}
+
+.hero h1 {
+  color: var(--White, #fff);
+
+  /* Heading 1 */
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; /* 137.037% */
+  margin-top: 126px;
+}
+.hero p {
+  color: var(--White, #fff);
+
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 24px;
+}
+.buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 48px;
+  margin-bottom: 128px;
+}
+
+.btn-cta {
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  background: #fcd980;
+  color: #1b1c2b;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+}
+
+.btn-see-all {
+  background: none;
+  border: none;
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
