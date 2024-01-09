@@ -5,11 +5,11 @@ function Nav() {
         <span className="logo">Whatsapp Communities</span>
         <ul>
           <li>Home</li>
-          <li>About us</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Faq</li>
-          <li>Blog</li>
+          <li>News</li>
+          <li>Business</li>
+          <li>Cricket</li>
+          <li>Pubg</li>
+          <li>Girls</li>
           <li>Contact us</li>
         </ul>
       </div>

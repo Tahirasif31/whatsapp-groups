@@ -87,7 +87,7 @@ li:last-child {
   font-style: normal;
   font-weight: 600;
   line-height: 74px; /* 137.037% */
-  margin-top: 126px;
+  margin-top: 70px;
 }
 .hero p {
   color: var(--White, #fff);
@@ -104,7 +104,7 @@ li:last-child {
   display: flex;
   gap: 40px;
   margin-top: 48px;
-  margin-bottom: 128px;
+  margin-bottom: 70px;
 }
 
 .btn-cta {
