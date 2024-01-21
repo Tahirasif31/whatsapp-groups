@@ -1,7 +1,7 @@
 import { useFetchGroups } from "../hooks/useFetchGroups";
 
-function News() {
-  const [groups, isLoading] = useFetchGroups("news");
+function Business() {
+  const [groups, isLoading] = useFetchGroups("business");
 
   if (isLoading) return <p>Loading</p>;
 
@@ -16,4 +16,4 @@ function News() {
   );
 }
 
-export default News;
+export default Business;

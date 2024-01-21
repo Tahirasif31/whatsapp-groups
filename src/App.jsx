@@ -1,16 +1,26 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import News from "./pages/News";
+import Home from "./pages/Home";
+import Business from "./pages/business";
+import Cricket from "./pages/Cricket";
+import Pubg from "./pages/Pubg";
+import Others from "./pages/Others";
+import Girls from "./pages/Girls";
 
 function App() {
   return (
     <div>
-      <Nav />
       <BrowserRouter>
+        <Nav />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="news" element={<News />} />
+          <Route path="business" element={<Business />} />
+          <Route path="cricket" element={<Cricket />} />
+          <Route path="pubg" element={<Pubg />} />
+          <Route path="girls" element={<Girls />} />
+          <Route path="others" element={<Others />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -131,4 +132,26 @@ li:last-child {
   font-style: normal;
   font-weight: 500;
   line-height: 28px; /* 175% */
+}
+.link {
+  text-decoration: none;
+  color: #bbbbcb;
+}
+.link.active {
+  color: #fff;
+}
+main {
+  background: var(--Grey, #f4f6fc);
+  margin: 0 auto;
+}
+.categories-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+  gap: 20px;
+  justify-content: center;
 }

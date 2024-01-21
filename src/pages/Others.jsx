@@ -1,6 +1,6 @@
 import { useFetchGroups } from "../hooks/useFetchGroups";
 
-function News() {
+function Others() {
   const [groups, isLoading] = useFetchGroups("news");
 
   if (isLoading) return <p>Loading</p>;
@@ -16,4 +16,4 @@ function News() {
   );
 }
 
-export default News;
+export default Others;

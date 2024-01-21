@@ -12,7 +12,7 @@ function Hero() {
           <div className="buttons">
             <button className="btn-cta">Join Now</button>
             <button className="btn-see-all">
-              see all
+              submit your group &nbsp;
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
