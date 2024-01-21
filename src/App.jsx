@@ -7,6 +7,7 @@ import Cricket from "./pages/Cricket";
 import Pubg from "./pages/Pubg";
 import Others from "./pages/Others";
 import Girls from "./pages/Girls";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="pubg" element={<Pubg />} />
           <Route path="girls" element={<Girls />} />
           <Route path="others" element={<Others />} />
+          <Route path="contact-us" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </div>

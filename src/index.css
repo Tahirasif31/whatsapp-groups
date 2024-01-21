@@ -155,3 +155,28 @@ main {
   gap: 20px;
   justify-content: center;
 }
+.container {
+  max-width: 1400px;
+  margin: 20px auto 0;
+  font-family: "Be Vietnam Pro";
+}
+.content-header {
+  background-color: #128b7e !important;
+  color: #fff;
+}
+.rows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  background-color: #edf2f7;
+}
+.rows .col-left {
+  border: 1px solid rgba(113, 128, 150, 0.42) !important;
+}
+.cols {
+  border: 1px solid #718096;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 24px;
+}
