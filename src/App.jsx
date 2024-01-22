@@ -8,6 +8,7 @@ import Pubg from "./pages/Pubg";
 import Others from "./pages/Others";
 import Girls from "./pages/Girls";
 import ContactUs from "./pages/ContactUs";
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/categories" element={<Main />} />
           <Route path="news" element={<News />} />
           <Route path="business" element={<Business />} />
           <Route path="cricket" element={<Cricket />} />
