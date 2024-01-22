@@ -1,21 +1,25 @@
 import { Link } from "react-router-dom";
 import HeroImg from "./../assets/HeroImg.svg?react";
+import styles from "./Hero.module.css";
 function Hero() {
   return (
-    <div className="hero-container">
-      <div className="hero">
-        <div className="text-container">
+    <div className={styles.heroContainer}>
+      <div className={styles.hero}>
+        <div className={styles.textContainer}>
           <h1>Join Thousands Whatsapp Groups for free</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
-          <div className="buttons">
-            <Link to={"categories"} className="btn-cta join">
+          <div className={styles.buttons}>
+            <Link
+              to={"categories"}
+              className={`${styles.btnCta} ${styles.join}`}
+            >
               Join Now
             </Link>
-            <button className="btn-see-all">
-              <Link to={"contact-us"} className="submit">
+            <button className={styles.btnSeeAll}>
+              <Link to={"contact-us"} className={styles.submit}>
                 submit your group &nbsp;
                 <span>
                   <svg
@@ -35,7 +39,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="img-container">
+        <div className="imgContainer">
           <HeroImg />
         </div>
       </div>
