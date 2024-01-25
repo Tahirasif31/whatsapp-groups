@@ -55,3 +55,24 @@ main {
   padding: 0.5rem 0;
   font-size: 2.4rem;
 }
+@media screen and (max-width: 1200px) {
+  .categories-container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 40% !important;
+  }
+  .categories-container {
+    max-width: 62rem;
+    margin: 0 auto;
+  }
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
